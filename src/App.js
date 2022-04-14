@@ -9,7 +9,7 @@ function App() {
   return (
     <Routes>
       <Route path={"*"} element={<Home />} />
-      <Route path={"./deploy-pages/detail"} element={<Detail />} />
+      <Route path={"/deploy-pages/detail"} element={<Detail />} />
     </Routes>
   );
 }

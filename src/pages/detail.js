@@ -5,7 +5,7 @@ export default () => {
   return (
     <div
       onClick={() => {
-        navigate("./deploy-pages/");
+        navigate("/deploy-pages/");
       }}
     >
       "detail detaildetaildetail 222"
