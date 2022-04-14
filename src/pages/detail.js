@@ -5,10 +5,10 @@ export default () => {
   return (
     <div
       onClick={() => {
-        navigate("./");
+        navigate("./deploy-pages/");
       }}
     >
-      "detail bbb"
+      "detail 222"
     </div>
   );
 };
