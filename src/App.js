@@ -8,8 +8,8 @@ import Detail from './pages/detail.js'
 function App() {
   return (
     <Routes>
-      <Route path={"/"} element={<Home />} />
-      <Route path={"/detail"} element={<Detail />} />
+      <Route path={"*"} element={<Home />} />
+      <Route path={"./detail"} element={<Detail />} />
     </Routes>
   );
 }

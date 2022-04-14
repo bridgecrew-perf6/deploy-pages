@@ -5,7 +5,7 @@ export default () => {
   return (
     <div
       onClick={() => {
-        navigate("/");
+        navigate("./");
       }}
     >
       "Detail PAGE"
