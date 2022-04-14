@@ -8,7 +8,7 @@ export default () => {
         navigate("./detail");
       }}
     >
-      "home PAGE"
+      "home aaa"
     </div>
   );
 };
