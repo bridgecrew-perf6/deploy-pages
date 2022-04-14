@@ -8,7 +8,7 @@ export default () => {
         navigate("./deploy-pages/");
       }}
     >
-      "detail 222"
+      "detail detaildetaildetail 222"
     </div>
   );
 };
