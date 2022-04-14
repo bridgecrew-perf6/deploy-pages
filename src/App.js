@@ -8,7 +8,7 @@ import Detail from './pages/detail.js'
 function App() {
   return (
     <Routes>
-      <Route path={"./deploy-pages/"} element={<Home />} />
+      <Route path={"*"} element={<Home />} />
       <Route path={"./deploy-pages/detail"} element={<Detail />} />
     </Routes>
   );
